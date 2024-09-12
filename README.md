@@ -2,6 +2,8 @@
 
 ### Automatically check the availability of vehicle plate combinations on vplates.com.au. It utilizes `cloudscraper` to bypass web scraping restrictions and makes concurrent requests to efficiently handle large numbers of plate combinations. The script reads proxies and combinations from two text files (`proxies.txt` and `combinations.txt`), checks each combination using a unique proxy, and stores successful results in a `success.txt` file.
 
+⚠️ This script requires an update. Due to recent changes in the website's security mechanism, the script may no longer work as expected.
+
 ## Features
 - Proxy Rotation: Utilizes a list of proxies to randomize and assign a proxy for each request, minimizing detection and avoiding rate limits.
 - Concurrency: Leverages Python’s ThreadPoolExecutor to check multiple plate combinations in parallel, significantly improving performance.\
